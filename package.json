@@ -1,0 +1,26 @@
+{
+    "name" : "node-polar-xlsx",
+    "version" : "0.0.1",
+    "description" : "node json2xlsx or xlsx2json.",
+    "main" : "./index.js",
+    "dependencies" : {
+        "node-xlsx": ">=0.2.2",
+        "xlsx":">=0.2.7",
+        "xlsx-writer":">=0.0.9",
+        "excel-export":"0.2.1",
+        "logger": "git@github.com:SGF-Games/node-dev-logger.git"
+    },
+    "devDependencies" : {
+        "chai": ">=1.2.0",
+        "mocha": ">=1.3.2",
+        "nock": ">=0.13.4",
+        "should": ">=1.1.0",
+        "sinon": ">=1.4.2"
+    },
+    "author" : {
+        "name" : "XiangDong.Yuan",
+        "email" : "yxdh4620@google.com"
+    },
+    "license" : "polar",
+    "engine" : ["node >=0.8.0"]
+}
